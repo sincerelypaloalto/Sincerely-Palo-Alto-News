@@ -1,0 +1,187 @@
+body {
+    background-color: #ffffff;
+    font-family: "Georgia";
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.socialmedia {
+    text-align: right;
+    background-color: #f1faff;
+    height: 20px;
+    padding: 15px;
+}
+
+.socialmedia a {
+    margin-left: 10px;
+}
+
+#title {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbarforweb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    gap: 30px;
+}
+
+#recentposts {
+    text-align: center;
+    background-color: #f1faff;
+    padding: 10px;
+}
+
+#recentnews {
+    text-align: center;
+    background-color: #f1faff;
+    padding: 10px;
+}
+
+#popularposts {
+    text-align: center;
+    background-color: #f1faff;
+    padding: 10px;
+}
+
+#funnews {
+    text-align: center;
+    background-color: #f1faff;
+    padding: 10px;
+}
+
+.navhover:hover {
+    text-decoration: underline;
+    color: gray;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.navlinks {
+    margin: 0;
+    display: flex;
+    gap: 30px;
+}
+
+.searchdiv {
+    position: absolute; /* positioned to nearest ancestor */
+    right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#searchbar {
+    margin-left: auto;
+    padding: 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+}
+
+.searchbutton {
+    background-color: #f1faff;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.searchbutton img {
+    width: 20px;
+    height: 20px;
+}
+
+.searchbutton:hover {
+    background-color: #d4f0ff;
+}
+
+.leftside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.rightside {
+    width: 250px;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.main { /* to make text centered */
+    margin: 20px auto;
+} 
+
+/* 3 columns, 4 rows */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 15px;
+    width: 100%;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.box a {
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.maintext {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 20px auto;
+}
+
+.writingofarticle {
+    max-width: 100%;
+    width: 700px;
+}
+
+.writingofarticle p {
+    font-size: 20px;
+}
+
+#frame {
+    width: 800px;
+    height: 1000px;
+}
+
+/* BOOKS */
+
+#alchemyofsecrets {
+    width: 195px;
+    height: 320px;
+}
+
+#legendary {
+    width: 195px;
+    height: 320px;
+}
