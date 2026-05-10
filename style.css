@@ -19,6 +19,12 @@ a {
     margin-left: 10px;
 }
 
+#logo {
+    width: 900px;
+    height: 900px;
+    text-align: center;
+}
+
 #title {
     font-size: 30px;
     text-align: center;
