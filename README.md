@@ -1,1 +1,1 @@
-balls
+Sincerely Palo Alto is a student-owned newspaper located in California.

@@ -20,9 +20,9 @@ a {
 }
 
 #logo {
-    width: 900px;
-    height: 900px;
-    text-align: center;
+    display: block; /* image takes up entire line */
+    margin: auto;
+    width: 50%;
 }
 
 #title {
@@ -132,7 +132,8 @@ a {
 
 .subheading {
     text-align: center;
-    font-size: bold;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 /* 3 columns, 4 rows */
