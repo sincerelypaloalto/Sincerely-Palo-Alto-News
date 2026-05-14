@@ -12,6 +12,7 @@
             </a>
         </div>
         <br>
+        <img id="logo" src="logo.png" alt="logo">
         <p id="title">p and k news</p>
         <hr>
         <nav class="navbarforweb">
@@ -33,19 +34,26 @@
         </nav>
         <hr>
         <br>
-        <div class="rightside">
-            <p id="recentnews">Recent News</p>
-            <a href="newspost1" class="navhover">news post</a>
-            <br>
-            <p id="funnews">Fun News</p>
-            <a href="alchemyofsecrets.html" class="navhover">book review post</a>
-            <br>
-            <p id="popularposts">Popular Posts</p>
-            <a href="popularpost1.html" class="navhover">something</a>
-            <br>
-            <p id="recentposts">Recent Posts</p>
-            <a href="practicepost.html" class="navhover">post #1</a>
-            <br>
+        <div class="maintext">
+            <div class="main">
+
+            </div>
+
+            <div class="rightside">
+                <p id="recentnews">Recent News</p>
+                <a href="schooluniforms.html" class="navhover">Should School Uniforms Be Mandatory?</a>
+                <br>
+                <p id="funnews">Fun News</p>
+                <a href="schooluniforms.html" class="navhover">Should School Uniforms Be Mandatory?</a>
+                <br>
+                <p id="popularposts">Popular Posts</p>
+                <a href="schooluniforms.html" class="navhover">Should School Uniforms Be Mandatory?</a>
+                <br>
+                <p id="recentposts">Recent Posts</p>
+                <a href="schooluniforms.html" class="navhover">Should School Uniforms Be Mandatory?</a>
+                <br>
+            </div>
+
         </div>
     </body>
 </html>
