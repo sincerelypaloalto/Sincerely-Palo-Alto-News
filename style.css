@@ -42,25 +42,25 @@ a {
 
 #recentposts {
     text-align: center;
-    background-color: #f1faff;
+    background-color: #ffe3e3;
     padding: 10px;
 }
 
 #recentnews {
     text-align: center;
-    background-color: #f1faff;
+    background-color: #ffe3e3;
     padding: 10px;
 }
 
 #popularposts {
     text-align: center;
-    background-color: #f1faff;
+    background-color: #ffe3e3;
     padding: 10px;
 }
 
 #funnews {
     text-align: center;
-    background-color: #f1faff;
+    background-color: #ffe3e3;
     padding: 10px;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 .searchbutton {
-    background-color: #f1faff;
+    background-color: #ffe3e3;
     border: none;
     padding: 2px;
     cursor: pointer;
@@ -110,7 +110,7 @@ a {
 }
 
 .searchbutton:hover {
-    background-color: #d4f0ff;
+    background-color: #ffe3e3;
 }
 
 .leftside {
